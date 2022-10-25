@@ -7,4 +7,6 @@ def main(a,b):
     Returns:
         bool: answer
     """
+    s =True
+    
     return
