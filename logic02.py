@@ -7,6 +7,7 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    s =True
-    
-    return
+    if a > 0 and b > 0:
+        return True
+    return False
+print(main(5,3))
