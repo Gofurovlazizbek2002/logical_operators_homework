@@ -9,8 +9,9 @@ def main(a,b,c):
         bool: answer
     """
     
-    if a < b < c or c > b > a:
-        
+    if a > b > c:
+        return True
+    elif c > b > a:
         return True
     return False
-print(main(5,7,8))
+print(main(3,4,5))
