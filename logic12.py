@@ -6,4 +6,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    if a%11==0:
+          return True
+    else:
+        a%11!=0
+         
+    return False
+print(main(22))
