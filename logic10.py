@@ -5,5 +5,11 @@ def main(a):
         a(int): parameter a
     Returns:
         bool: answer
+    
     """
-    return
+    if a>10 :
+        return True
+    else:
+        a<10
+    return False
+print(main(22)) 
